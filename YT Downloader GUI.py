@@ -5,27 +5,45 @@ import yt_dlp
 def gui():
     sg.theme('DarkTanBlue')
     layout = [
-        [sg.Text('Youtube Link here:')],
-        [sg.Input(key='_Link_')],
-        [sg.Button('Download', key='_download_'), sg.Button('Exit')],
+        [sg.Text('YouTube link here:')],
+        [sg.Input(key='link')],
+        [sg.Radio('Video + Audio', 'Type', key='type', default=True),
+         sg.Radio('Audio Only', 'Type', key='type')],
+        [sg.Combo(['2160', '1440', '1080', '720', '480', '360', '240', '144'], default_value='1080',
+                  key='resolution'),
+         sg.Text('Next highest if not available')],
+        [sg.Button('Download', key='download'), sg.Button('Exit')],
+
     ]
 
-    window = sg.Window("Simple YT Downloader", layout)
+    window = sg.Window("YT Downloader", layout)
 
     while True:
         event, values = window.read()
-        print(event, values)
 
         if event in (None, "Exit"):
             break
 
-        if event == '_download_':
-            url = values['_Link_']
+        if event == 'download':
+            url = values['link']
+            resolution = values['resolution']
+            vid_type = values['type']
+            if vid_type:
+                options = {
+                    'format': f'bestvideo[height<={resolution}][ext=mp4]+bestaudio[ext=m4a]',
+                }
+            else:
+                options = {
+                    'format': 'bestaudio[ext=m4a]',
+                }
+            with yt_dlp.YoutubeDL(options) as ydl:
+                try:
+                    ydl.download([url])
+                    sg.popup('Finished Downloading')
+                except yt_dlp.utils.DownloadError:
+                    sg.popup("Wrong Link!")
 
-            with yt_dlp.YoutubeDL({'format': 'mp4'}) as ydl:
-                ydl.download(url)
-
-        window.close()
+    window.close()
 
 
 if __name__ == '__main__':
