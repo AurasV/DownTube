@@ -1,4 +1,7 @@
-# YT-Downloader
+# About DownTube
+
+## Why?
+Couldn't find an easy to use app/website so I made on myself
 
 ## Libraries used:
 ``PySimpleGUI`` and ``yt-dlp``
