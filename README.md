@@ -11,6 +11,8 @@
 ***If you plug in a video from a playlist it will download the whole playlist FROM THE BEGINNING OF THE PLAYLIST***
 
 ***I'm working on a fix as soon as I have the time***
+
+***As of right now the downloaded files go to the same folder the exe/script is in this will, as well, be reworked in future versions***
 ## Usage:
 Double click the exe and the console will appear first
 ![image](https://github.com/AurasV/YT-Downloader/assets/80701407/df2ae5f3-c052-4db0-91aa-43a953fb2cce)
