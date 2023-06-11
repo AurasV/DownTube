@@ -1,8 +1,9 @@
 # About DownTube
 
 ## Why?
-Couldn't find an easy to use app/website so I made on myself
+Couldn't find an easy to use app/website so I made one myself
 
+Will update when/if needed/I have time
 ## Libraries used:
 ``PySimpleGUI`` and ``yt-dlp``
 
