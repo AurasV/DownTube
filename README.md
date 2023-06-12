@@ -21,10 +21,11 @@ Will update when/if needed/I have time
 
 ***Do NOT close the program unless you want to give up on the download***
 
-***If you plug in a video from a playlist it will download the whole playlist FROM THE BEGINNING OF THE PLAYLIST***
+~~***If you plug in a video from a playlist it will download the whole playlist FROM THE BEGINNING OF THE PLAYLIST***~~
 
-***I'm working on a fix as soon as I have the time***
+~~***I'm working on a fix as soon as I have the time***~~
 
+Fixed
 
 
 
