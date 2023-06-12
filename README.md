@@ -11,11 +11,11 @@ Will update when/if needed/I have time
 ## Warnings:
 ***The exe isn't signed so Windows will complain about it, if you don't trust it, use the given python code***
 
-***As of right now the downloaded files go to the same folder the exe/script is in this will, as well, be reworked in future versions***
+~~***As of right now the downloaded files go to the same folder the exe/script is in this will, as well, be reworked in future versions***~~
 
-***The downloaded file will have the ``modified date`` as the date it was uploaded to youtube!!!***
+~~***The downloaded file will have the ``modified date`` as the date it was uploaded to youtube!!!***~~ 
 
-***Meaning if you have the files in the folder ordered by date it might not show up at the beginning of the folder!!!***
+~~***Meaning if you have the files in the folder ordered by date it might not show up at the beginning of the folder!!!***~~ - Partially Fixed (Only for single file downloads)
 
 ***If the program freezes check the console, it's probably downloading a large file that takes a while***
 
@@ -23,9 +23,7 @@ Will update when/if needed/I have time
 
 ~~***If you plug in a video from a playlist it will download the whole playlist FROM THE BEGINNING OF THE PLAYLIST***~~
 
-~~***I'm working on a fix as soon as I have the time***~~
-
-Fixed
+~~***I'm working on a fix as soon as I have the time***~~ - Fixed
 
 
 
