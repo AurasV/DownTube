@@ -8,7 +8,8 @@ def gui():
         [sg.Text('YouTube link here:')],
         [sg.Input(key='link')],
         [sg.Radio('Video + Audio', 'Type', key='type', default=True),
-         sg.Radio('Audio Only', 'Type', key='type')],
+         sg.Radio('Audio Only', 'Type', key='type'),
+         sg.Checkbox('Whole Playlist?', False, key='playlist')],
         [sg.Combo(['2160', '1440', '1080', '720', '480', '360', '240', '144'], default_value='1080',
                   key='resolution'),
          sg.Text('Next highest if not available')],
@@ -25,7 +26,9 @@ def gui():
             break
 
         if event == 'download':
-            url = values['link']
+            if not values['playlist']:
+                url = values['link'].split('&list=')[0]
+
             resolution = values['resolution']
             vid_type = values['type']
             if vid_type:
