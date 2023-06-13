@@ -47,12 +47,14 @@ def gui():
                 options = {
                     'format': f'bestvideo[height<={resolution}][ext=mp4]+bestaudio[ext=m4a]',
                     'outtmpl': f'{download_folder}/%(title)s.%(ext)s',
+                    'ignoreerrors': True,
                 }
             else:
                 extension = '.m4a'
                 options = {
                     'format': 'bestaudio[ext=m4a]',
                     'outtmpl': f'{download_folder}/%(title)s.%(ext)s',
+                    'ignoreerrors': True,
                 }
             with yt_dlp.YoutubeDL(options) as ydl:
                 try:
