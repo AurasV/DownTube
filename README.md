@@ -17,7 +17,7 @@ Will update when/if needed/I have time
 
 ~~***Meaning if you have the files in the folder ordered by date it might not show up at the beginning of the folder!!!***~~ - Partially Fixed (Only for single file downloads)
 
-***If the program freezes check the console, it's probably downloading a large file that takes a while***
+***If the program freezes check the console, it's probably downloading a large file that takes a while or a playlist***
 
 ***Do NOT close the program unless you want to give up on the download***
 
