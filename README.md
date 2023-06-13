@@ -31,23 +31,23 @@ Will update when/if needed/I have time
 
 ## Usage:
 Double click the exe and the console will appear first
-![image](https://github.com/AurasV/YT-Downloader/assets/80701407/df2ae5f3-c052-4db0-91aa-43a953fb2cce)
+![console first](https://github.com/AurasV/DownTube/assets/80701407/b93526ad-8990-430d-a1e5-c976c42cecf6)
 Wait for it to finish loading then the GUI will appear
 
-![image](https://github.com/AurasV/YT-Downloader/assets/80701407/33e072b7-4778-4289-8730-86b54051f6a0)
+![gui](https://github.com/AurasV/DownTube/assets/80701407/97579dda-fc9e-4b80-8f20-4172cd4bf312)
 
-Plug in the YouTube link and choose what do you want (Video + Audio or Audio only, Resolution)
+Plug in the YouTube link and choose what do you want (Video + Audio or Audio only, Resolution, Whole Playlist)
 
 The next highest resolution will be chosen if the desired one isn't available 
 
-![image](https://github.com/AurasV/YT-Downloader/assets/80701407/4ba01db3-5dab-441f-928d-ca089dd926cd)
+![resolution](https://github.com/AurasV/DownTube/assets/80701407/107599ae-8f99-4443-b240-14666305a5d2)
 
 After clicking on the ``Download`` button you'll get the progress in the console
-![image](https://github.com/AurasV/YT-Downloader/assets/80701407/5f0f4077-f525-4207-81e7-df56bdd5261e)
+![console](https://github.com/AurasV/DownTube/assets/80701407/b4ba794a-be9e-4a2c-bbc1-5c7903e956bf)
 
 When the download is done a pop-up will show up
 
-![image](https://github.com/AurasV/YT-Downloader/assets/80701407/8d6cccf5-2364-4286-ae5a-62492c6b589f)
+![finished](https://github.com/AurasV/DownTube/assets/80701407/af0eb3aa-24b9-4394-bbe4-bdb770f65b4b)
 
 ## How to close?
 ### If the program freezes or you want to give up on the download
