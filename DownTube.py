@@ -63,7 +63,10 @@ def gui():
                         vid_info = ydl.extract_info(url, download=False)
                         title = vid_info.get('title') + extension
                         full_path = download_folder + '/' + title
-                        change_time(full_path)
+                        try:
+                            change_time(full_path)
+                        except OSError:
+                            pass
                     sg.popup('Download Finished!')
                 except yt_dlp.utils.DownloadError:
                     sg.popup("Wrong Link!")
